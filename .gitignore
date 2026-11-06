@@ -1,0 +1,29 @@
+# Dependencies and generated files
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.bak
+*.backup*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Personal application content must never be committed
+data/
+settings.json
+window-state.json
+window.json
+*.ccs
+*.CCS
